@@ -1,0 +1,92 @@
+.wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+}
+
+.form-title {
+    font-size: 3.5rem; /* Title size */
+    font-weight: 600; /* Title weight */
+    margin: 0;
+    margin-bottom: 10px; /* Space below the title */
+    text-align: center; /* Center align the title */
+}
+
+.call-initiate-form {
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px; /* Optional: fixed width */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.error {
+    color: red; /* Error message styling */
+    font-size: 0.875rem; /* Smaller font for errors */
+}
+
+.label-style{
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.extra-p{
+    padding-top: 10px;
+}
+
+
+.modal-custom-header{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.check-circle-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.loading-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.loading-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #956afa;
+}
+
+.check-circle {
+    width: 60px; /* Adjust the size as necessary */
+    height: 60px; /* Adjust the size as necessary */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: scale(0); /* Start from a scale of 0 */
+    color: rgb(64, 234, 64); /* Green color for the check icon */
+}
+
+.check-circle.animate {
+    opacity: 1; /* Make it fully visible */
+    transform: scale(1); /* Scale up to its original size */
+}

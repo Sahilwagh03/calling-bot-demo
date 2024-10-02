@@ -1,0 +1,137 @@
+/* Container styling */
+.select-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Button styles */
+.select-button {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    background-color: #f9f9f9;
+    transition: background-color 0.2s;
+}
+
+.select-button:hover {
+    background-color: #e2e2e2;
+}
+
+.select-icon {
+    margin-left: 0.5rem;
+    opacity: 0.5;
+}
+
+/* Input styles */
+.select-input {
+    display: inline-flex;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+}
+
+/* Popover */
+.popover {
+    position: absolute;
+    z-index: 10;
+    min-width: 200px;
+    width: 100%;
+}
+
+.popover-above {
+    bottom: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.popover-below {
+    top: 45px;
+}
+
+.popover-content {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 0.375rem;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+/* Select content */
+.select-content {
+    padding: 0rem;
+}
+
+/* Select header */
+.select-header {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-text {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Select list */
+.select-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+/* Select item */
+.select-item {
+    display: flex;
+    gap:4px;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    border-radius: 0.375rem;
+}
+
+.select-item:hover {
+    background-color: #f1f1f1;
+}
+
+.checkmark {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-text {
+    flex-grow: 1;
+    font-size: 0.875rem;
+}
+
+/* Light theme scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #d9d9d9;
+    border-radius: 24px;
+    height: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }

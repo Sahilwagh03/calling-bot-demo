@@ -1,0 +1,25 @@
+.custom-button {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+  }
+  
+  
+  .custom-button.dark {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Utility for different sizes and responsive design */
+  .custom-button.h-auto {
+    height: auto;
+  }
+  
+  /* You can add any additional styles or overrides */
+  
